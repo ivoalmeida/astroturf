@@ -13,6 +13,7 @@ export default function plugin() {
   return {
     pre(file) {
       file.set(IMPORTS, []);
+      file.set(IMPORTS, []);
 
       if (!file.has(STYLES)) {
         file.set(STYLES, {
